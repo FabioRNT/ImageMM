@@ -1,0 +1,15 @@
+C:\Users\NETO\Google Drive\Mestrado\Disciplinas\2016.2\Sistema e Aplicações Multimedia\Primeiro Trabalho Prático\ImageMM\ImageMM\bin\Debug\ImageMM.exe.config
+C:\Users\NETO\Google Drive\Mestrado\Disciplinas\2016.2\Sistema e Aplicações Multimedia\Primeiro Trabalho Prático\ImageMM\ImageMM\bin\Debug\ImageMM.exe
+C:\Users\NETO\Google Drive\Mestrado\Disciplinas\2016.2\Sistema e Aplicações Multimedia\Primeiro Trabalho Prático\ImageMM\ImageMM\bin\Debug\ImageMM.pdb
+C:\Users\NETO\Google Drive\Mestrado\Disciplinas\2016.2\Sistema e Aplicações Multimedia\Primeiro Trabalho Prático\ImageMM\ImageMM\bin\Debug\AForge.dll
+C:\Users\NETO\Google Drive\Mestrado\Disciplinas\2016.2\Sistema e Aplicações Multimedia\Primeiro Trabalho Prático\ImageMM\ImageMM\bin\Debug\AForge.Imaging.dll
+C:\Users\NETO\Google Drive\Mestrado\Disciplinas\2016.2\Sistema e Aplicações Multimedia\Primeiro Trabalho Prático\ImageMM\ImageMM\bin\Debug\AForge.Math.dll
+C:\Users\NETO\Google Drive\Mestrado\Disciplinas\2016.2\Sistema e Aplicações Multimedia\Primeiro Trabalho Prático\ImageMM\ImageMM\bin\Debug\AForge.xml
+C:\Users\NETO\Google Drive\Mestrado\Disciplinas\2016.2\Sistema e Aplicações Multimedia\Primeiro Trabalho Prático\ImageMM\ImageMM\bin\Debug\AForge.Imaging.xml
+C:\Users\NETO\Google Drive\Mestrado\Disciplinas\2016.2\Sistema e Aplicações Multimedia\Primeiro Trabalho Prático\ImageMM\ImageMM\bin\Debug\AForge.Math.xml
+C:\Users\NETO\Google Drive\Mestrado\Disciplinas\2016.2\Sistema e Aplicações Multimedia\Primeiro Trabalho Prático\ImageMM\ImageMM\obj\Debug\ImageMM.csprojResolveAssemblyReference.cache
+C:\Users\NETO\Google Drive\Mestrado\Disciplinas\2016.2\Sistema e Aplicações Multimedia\Primeiro Trabalho Prático\ImageMM\ImageMM\obj\Debug\ImageMM.Form1.resources
+C:\Users\NETO\Google Drive\Mestrado\Disciplinas\2016.2\Sistema e Aplicações Multimedia\Primeiro Trabalho Prático\ImageMM\ImageMM\obj\Debug\ImageMM.Properties.Resources.resources
+C:\Users\NETO\Google Drive\Mestrado\Disciplinas\2016.2\Sistema e Aplicações Multimedia\Primeiro Trabalho Prático\ImageMM\ImageMM\obj\Debug\ImageMM.csproj.GenerateResource.Cache
+C:\Users\NETO\Google Drive\Mestrado\Disciplinas\2016.2\Sistema e Aplicações Multimedia\Primeiro Trabalho Prático\ImageMM\ImageMM\obj\Debug\ImageMM.exe
+C:\Users\NETO\Google Drive\Mestrado\Disciplinas\2016.2\Sistema e Aplicações Multimedia\Primeiro Trabalho Prático\ImageMM\ImageMM\obj\Debug\ImageMM.pdb

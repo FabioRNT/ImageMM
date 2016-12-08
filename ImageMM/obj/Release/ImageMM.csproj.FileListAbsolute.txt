@@ -1,0 +1,15 @@
+C:\Users\NETO\Google Drive\Mestrado\Disciplinas\2016.2\Sistema e Aplicações Multimedia\Primeiro Trabalho Prático\ImageMM\ImageMM\bin\Release\ImageMM.exe.config
+C:\Users\NETO\Google Drive\Mestrado\Disciplinas\2016.2\Sistema e Aplicações Multimedia\Primeiro Trabalho Prático\ImageMM\ImageMM\bin\Release\ImageMM.exe
+C:\Users\NETO\Google Drive\Mestrado\Disciplinas\2016.2\Sistema e Aplicações Multimedia\Primeiro Trabalho Prático\ImageMM\ImageMM\bin\Release\ImageMM.pdb
+C:\Users\NETO\Google Drive\Mestrado\Disciplinas\2016.2\Sistema e Aplicações Multimedia\Primeiro Trabalho Prático\ImageMM\ImageMM\bin\Release\AForge.dll
+C:\Users\NETO\Google Drive\Mestrado\Disciplinas\2016.2\Sistema e Aplicações Multimedia\Primeiro Trabalho Prático\ImageMM\ImageMM\bin\Release\AForge.Imaging.dll
+C:\Users\NETO\Google Drive\Mestrado\Disciplinas\2016.2\Sistema e Aplicações Multimedia\Primeiro Trabalho Prático\ImageMM\ImageMM\bin\Release\AForge.Math.dll
+C:\Users\NETO\Google Drive\Mestrado\Disciplinas\2016.2\Sistema e Aplicações Multimedia\Primeiro Trabalho Prático\ImageMM\ImageMM\bin\Release\AForge.xml
+C:\Users\NETO\Google Drive\Mestrado\Disciplinas\2016.2\Sistema e Aplicações Multimedia\Primeiro Trabalho Prático\ImageMM\ImageMM\bin\Release\AForge.Imaging.xml
+C:\Users\NETO\Google Drive\Mestrado\Disciplinas\2016.2\Sistema e Aplicações Multimedia\Primeiro Trabalho Prático\ImageMM\ImageMM\bin\Release\AForge.Math.xml
+C:\Users\NETO\Google Drive\Mestrado\Disciplinas\2016.2\Sistema e Aplicações Multimedia\Primeiro Trabalho Prático\ImageMM\ImageMM\obj\Release\ImageMM.csprojResolveAssemblyReference.cache
+C:\Users\NETO\Google Drive\Mestrado\Disciplinas\2016.2\Sistema e Aplicações Multimedia\Primeiro Trabalho Prático\ImageMM\ImageMM\obj\Release\ImageMM.Form1.resources
+C:\Users\NETO\Google Drive\Mestrado\Disciplinas\2016.2\Sistema e Aplicações Multimedia\Primeiro Trabalho Prático\ImageMM\ImageMM\obj\Release\ImageMM.Properties.Resources.resources
+C:\Users\NETO\Google Drive\Mestrado\Disciplinas\2016.2\Sistema e Aplicações Multimedia\Primeiro Trabalho Prático\ImageMM\ImageMM\obj\Release\ImageMM.csproj.GenerateResource.Cache
+C:\Users\NETO\Google Drive\Mestrado\Disciplinas\2016.2\Sistema e Aplicações Multimedia\Primeiro Trabalho Prático\ImageMM\ImageMM\obj\Release\ImageMM.exe
+C:\Users\NETO\Google Drive\Mestrado\Disciplinas\2016.2\Sistema e Aplicações Multimedia\Primeiro Trabalho Prático\ImageMM\ImageMM\obj\Release\ImageMM.pdb
