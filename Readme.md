@@ -15,7 +15,7 @@ This application was developed and presented to fulfill an assignment of the mul
 
 **Requirements:**
 
-* To run the application: .NET Framework version 4.5.2, run WindowsApplication.exe at bin\Release
+* To run the application: .NET Framework version 4.5.2, run WindowsApplication.exe at bin\Release\
 * To edit the application: Visual Studio 2017 (Not checked in older versions), import ImageMultimedia.sln to edit the application.
 
 ¹ See https://en.wikipedia.org/wiki/RGB_color_space for detailed info.
