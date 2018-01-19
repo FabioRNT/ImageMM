@@ -1,0 +1,16 @@
+C:\Users\Neto\Google Drive\workspace\ImageMM\ImageMM\obj\x86\Debug\ImageMultimedia.csprojResolveAssemblyReference.cache
+C:\Users\Neto\Google Drive\workspace\ImageMM\ImageMM\obj\x86\Debug\ImageMM.Form1.resources
+C:\Users\Neto\Google Drive\workspace\ImageMM\ImageMM\obj\x86\Debug\ImageMultimedia.ImageMM.Properties.Resources.resources
+C:\Users\Neto\Google Drive\workspace\ImageMM\ImageMM\obj\x86\Debug\ImageMultimedia.csproj.GenerateResource.Cache
+C:\Users\Neto\Google Drive\workspace\ImageMM\ImageMM\obj\x86\Debug\ImageMultimedia.csproj.CoreCompileInputs.cache
+C:\Users\Neto\Google Drive\workspace\ImageMM\ImageMM\bin\Debug\WindowsApplication.exe.config
+C:\Users\Neto\Google Drive\workspace\ImageMM\ImageMM\bin\Debug\WindowsApplication.exe
+C:\Users\Neto\Google Drive\workspace\ImageMM\ImageMM\bin\Debug\WindowsApplication.pdb
+C:\Users\Neto\Google Drive\workspace\ImageMM\ImageMM\bin\Debug\AForge.dll
+C:\Users\Neto\Google Drive\workspace\ImageMM\ImageMM\bin\Debug\AForge.Imaging.dll
+C:\Users\Neto\Google Drive\workspace\ImageMM\ImageMM\bin\Debug\AForge.Math.dll
+C:\Users\Neto\Google Drive\workspace\ImageMM\ImageMM\bin\Debug\AForge.xml
+C:\Users\Neto\Google Drive\workspace\ImageMM\ImageMM\bin\Debug\AForge.Imaging.xml
+C:\Users\Neto\Google Drive\workspace\ImageMM\ImageMM\bin\Debug\AForge.Math.xml
+C:\Users\Neto\Google Drive\workspace\ImageMM\ImageMM\obj\x86\Debug\WindowsApplication.exe
+C:\Users\Neto\Google Drive\workspace\ImageMM\ImageMM\obj\x86\Debug\WindowsApplication.pdb

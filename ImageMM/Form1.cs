@@ -2,20 +2,16 @@
 using AForge.Imaging.Filters;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Drawing.Imaging;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ImageMM
 {
-    public partial class Form1 : Form
+	public partial class Form1 : Form
     {
         public Form1()
         {
@@ -63,12 +59,12 @@ namespace ImageMM
             long loopcount = 0;
 
             // Clean Labels
-            _lblAvgR.Text = "Média R: ";
-            _lblAvgG.Text = "Média G: ";
-            _lblAvgB.Text = "Média B: ";
-            _lblAvgY.Text = "Média Y: ";
-            _lblAvgCr.Text = "Média Cr: ";
-            _lblAvgCb.Text = "Média Cb: ";
+            _lblAvgR.Text = "Avg R: ";
+            _lblAvgG.Text = "Avg G: ";
+            _lblAvgB.Text = "Avg B: ";
+            _lblAvgY.Text = "Avg Y: ";
+            _lblAvgCr.Text = "Avg Cr: ";
+            _lblAvgCb.Text = "Avg Cb: ";
 
             // Generating Averages
             for (int y = 0; y <= bmData.Height - 1; y++)
@@ -186,7 +182,6 @@ namespace ImageMM
 
                 //Bitmap Closure
                 bitmap.UnlockBits(bmData);
-                bitmap.Dispose();
                 bitmapInRgbFormat.Dispose();
                 bitmap.Dispose();
 
@@ -205,7 +200,6 @@ namespace ImageMM
 
                 //Bitmap Closure
                 bitmap.UnlockBits(bmData);
-                bitmap.Dispose();
                 bitmapInRgbFormat.Dispose();
                 bitmap.Dispose();
             }
@@ -223,7 +217,6 @@ namespace ImageMM
 
                 //Bitmap Closure
                 bitmap.UnlockBits(bmData);
-                bitmap.Dispose();
                 bitmapInRgbFormat.Dispose();
                 bitmap.Dispose();
             }
@@ -241,7 +234,6 @@ namespace ImageMM
 
                 //Bitmap Closure
                 bitmap.UnlockBits(bmData);
-                bitmap.Dispose();
                 bitmapInRgbFormat.Dispose();
                 bitmap.Dispose();
             }
@@ -259,7 +251,6 @@ namespace ImageMM
 
                 //Bitmap Closure
                 bitmap.UnlockBits(bmData);
-                bitmap.Dispose();
                 bitmapInRgbFormat.Dispose();
                 bitmap.Dispose();
             }
@@ -277,7 +268,6 @@ namespace ImageMM
 
                 //Bitmap Closure
                 bitmap.UnlockBits(bmData);
-                bitmap.Dispose();
                 bitmapInRgbFormat.Dispose();
                 bitmap.Dispose();
             }
@@ -301,7 +291,6 @@ namespace ImageMM
 
                 //Bitmap Closure
                 bitmap.UnlockBits(bmData);
-                bitmap.Dispose();
                 bitmapInRgbFormat.Dispose();
                 bitmap.Dispose();
             }
@@ -325,7 +314,6 @@ namespace ImageMM
 
                 //Bitmap Closure
                 bitmap.UnlockBits(bmData);
-                bitmap.Dispose();
                 bitmapInRgbFormat.Dispose();
                 bitmap.Dispose();
             }
@@ -349,7 +337,6 @@ namespace ImageMM
 
                 //Bitmap Closure
                 bitmap.UnlockBits(bmData);
-                bitmap.Dispose();
                 bitmapInRgbFormat.Dispose();
                 bitmap.Dispose();
             }
@@ -379,7 +366,6 @@ namespace ImageMM
 
                 //Bitmap Closure
                 bitmap.UnlockBits(bmData);
-                bitmap.Dispose();
                 bitmapInRgbFormat.Dispose();
                 bitmap.Dispose();
             }
@@ -402,7 +388,6 @@ namespace ImageMM
 
                 //Bitmap Closure
                 bitmap.UnlockBits(bmData);
-                bitmap.Dispose();
                 bitmapInRgbFormat.Dispose();
                 bitmap.Dispose();
             }
@@ -425,7 +410,6 @@ namespace ImageMM
 
                 //Bitmap Closure
                 bitmap.UnlockBits(bmData);
-                bitmap.Dispose();
                 bitmapInRgbFormat.Dispose();
                 bitmap.Dispose();
             }
@@ -448,7 +432,6 @@ namespace ImageMM
 
                 //Bitmap Closure
                 bitmap.UnlockBits(bmData);
-                bitmap.Dispose();
                 bitmapInRgbFormat.Dispose();
                 bitmap.Dispose();
             }
@@ -476,7 +459,6 @@ namespace ImageMM
 
                 //Bitmap Closure
                 bitmap.UnlockBits(bmData);
-                bitmap.Dispose();
                 bitmapInRgbFormat.Dispose();
                 bitmap.Dispose();
             }
@@ -492,11 +474,13 @@ namespace ImageMM
             startPt.X = e.X;
             startPt.Y = e.Y;
 
+            rctZoom = new Rectangle(new Point(e.X, e.Y), new Size());
+
             // Clear End point
             endPt.X = -1;
             endPt.Y = -1;
 
-            rctZoom = new Rectangle(new Point(e.X, e.Y), new Size());
+            
         }
 
         private void _pcbImage_MouseMove(object sender, MouseEventArgs e)
@@ -543,37 +527,56 @@ namespace ImageMM
 
         private void _pcbImage_MouseUp(object sender, MouseEventArgs e)
         {
-            // Configuration for zoom off button
-            noZoomBmp = new Bitmap(_pcbImage.Image);
-            zoomBmpList.Add(noZoomBmp);
-
-            if (mouseStatus)
+            if (startPt.X != e.X &&
+                startPt.Y != e.Y)
             {
-                // Set mouseStatus off
-                mouseStatus = false;
+                // Configuration for zoom off button
+                noZoomBmp = new Bitmap(_pcbImage.Image);
+                zoomBmpList.Add(noZoomBmp);
 
-                // Set flags to initial state 
-                endPt.X = -1;
-                endPt.Y = -1;
-                startPt.X = -1;
-                startPt.Y = -1;
-                _pcbImage.Invalidate();
-
-                // Zoom Code
-                using (Bitmap sourceBitmap = new Bitmap(_pcbImage.Image, _pcbImage.Width, _pcbImage.Height))
+                if (mouseStatus)
                 {
-                    using (Bitmap zoomBmp = new Bitmap(_pcbImage.Width, _pcbImage.Height))
-                    {
-                        using (Graphics g = Graphics.FromImage(zoomBmp))
-                        {
-                            g.DrawImage(sourceBitmap, new Rectangle(0, 0, _pcbImage.Width, _pcbImage.Height),
-                        rctZoom, GraphicsUnit.Pixel);
-                        }
-                        Bitmap newZoomBmp = new Bitmap(zoomBmp);
-                        onShowImage(newZoomBmp);
-                    }
-                }
+                    // Set mouseStatus off
+                    mouseStatus = false;
 
+                    // Set flags to initial state 
+                    endPt.X = -1;
+                    endPt.Y = -1;
+                    startPt.X = -1;
+                    startPt.Y = -1;
+                    _pcbImage.Invalidate();
+
+                    // Zoom Code
+                    using (Bitmap sourceBitmap = new Bitmap(_pcbImage.Image, _pcbImage.Width, _pcbImage.Height))
+                    {
+                        using (Bitmap zoomBmp = new Bitmap(_pcbImage.Width, _pcbImage.Height))
+                        {
+                            using (Graphics g = Graphics.FromImage(zoomBmp))
+                            {
+                                g.DrawImage(sourceBitmap, new Rectangle(0, 0, _pcbImage.Width, _pcbImage.Height),
+                            rctZoom, GraphicsUnit.Pixel);
+                            }
+                            Bitmap newZoomBmp = new Bitmap(zoomBmp);
+                            onShowImage(newZoomBmp);
+                        }
+                    }
+
+                }
+            }
+            else
+            {
+                if (mouseStatus)
+                {
+                    // Set mouseStatus off
+                    mouseStatus = false;
+
+                    // Set flags to initial state 
+                    endPt.X = -1;
+                    endPt.Y = -1;
+                    startPt.X = -1;
+                    startPt.Y = -1;
+                    _pcbImage.Invalidate();
+                }
             }
         }
 
@@ -593,6 +596,8 @@ namespace ImageMM
             }
                 
         }
+
+
 
         #endregion Events
 

@@ -1,0 +1,252 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{00F3CEA9-776E-43B4-91A2-2AED27890792}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>WindowsApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>ImageMultimedia</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AForge, Version=2.2.5.0, Culture=neutral, PublicKeyToken=c1db6ff4eaa06aeb, processorArchitecture=MSIL">
+      <HintPath>packages\AForge.2.2.5\lib\AForge.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="AForge.Imaging, Version=2.2.5.0, Culture=neutral, PublicKeyToken=ba8ddea9676ca48b, processorArchitecture=MSIL">
+      <HintPath>packages\AForge.Imaging.2.2.5\lib\AForge.Imaging.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="AForge.Math, Version=2.2.5.0, Culture=neutral, PublicKeyToken=abba2e25397ee8c9, processorArchitecture=MSIL">
+      <HintPath>packages\AForge.Math.2.2.5\lib\AForge.Math.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitattributes" />
+    <Content Include=".gitignore" />
+    <Content Include="ImageMM\bin\Debug\AForge.dll" />
+    <Content Include="ImageMM\bin\Debug\AForge.Imaging.dll" />
+    <Content Include="ImageMM\bin\Debug\AForge.Imaging.xml" />
+    <Content Include="ImageMM\bin\Debug\AForge.Math.dll" />
+    <Content Include="ImageMM\bin\Debug\AForge.Math.xml" />
+    <Content Include="ImageMM\bin\Debug\AForge.xml" />
+    <Content Include="ImageMM\bin\Debug\ImageMM.exe" />
+    <Content Include="ImageMM\bin\Debug\ImageMM.exe.CodeAnalysisLog.xml" />
+    <Content Include="ImageMM\bin\Debug\ImageMM.pdb" />
+    <Content Include="ImageMM\ImageMM.csproj" />
+    <Content Include="ImageMM\obj\Debug\ImageMM.csproj.FileListAbsolute.txt" />
+    <Content Include="ImageMM\obj\Debug\ImageMM.exe" />
+    <Content Include="ImageMM\obj\Debug\ImageMM.pdb" />
+    <Content Include="ImageMM\obj\Release\ImageMM.csproj.FileListAbsolute.txt" />
+    <Content Include="ImageMM\obj\Release\ImageMM.exe" />
+    <Content Include="ImageMM\obj\Release\ImageMM.pdb" />
+    <Content Include="packages\AForge.2.2.5\lib\AForge.dll" />
+    <Content Include="packages\AForge.2.2.5\lib\AForge.xml" />
+    <Content Include="packages\AForge.Imaging.2.2.5\lib\AForge.Imaging.dll" />
+    <Content Include="packages\AForge.Imaging.2.2.5\lib\AForge.Imaging.xml" />
+    <Content Include="packages\AForge.Math.2.2.5\lib\AForge.Math.dll" />
+    <Content Include="packages\AForge.Math.2.2.5\lib\AForge.Math.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".git\config" />
+    <None Include=".git\description" />
+    <None Include=".git\HEAD" />
+    <None Include=".git\hooks\applypatch-msg.sample" />
+    <None Include=".git\hooks\commit-msg.sample" />
+    <None Include=".git\hooks\fsmonitor-watchman.sample" />
+    <None Include=".git\hooks\post-update.sample" />
+    <None Include=".git\hooks\pre-applypatch.sample" />
+    <None Include=".git\hooks\pre-commit.sample" />
+    <None Include=".git\hooks\pre-push.sample" />
+    <None Include=".git\hooks\pre-rebase.sample" />
+    <None Include=".git\hooks\pre-receive.sample" />
+    <None Include=".git\hooks\prepare-commit-msg.sample" />
+    <None Include=".git\hooks\update.sample" />
+    <None Include=".git\index" />
+    <None Include=".git\info\exclude" />
+    <None Include=".git\logs\HEAD" />
+    <None Include=".git\logs\refs\heads\master" />
+    <None Include=".git\logs\refs\remotes\origin\HEAD" />
+    <None Include=".git\objects\05\1ab91b50799f9065e5dd4e97cdc33f3fadc9e1" />
+    <None Include=".git\objects\06\1c9ca950d0e8bb952c52799fb401a6614ad640" />
+    <None Include=".git\objects\07\c2972c2356befd667f9d746f72cfd3085761fb" />
+    <None Include=".git\objects\0c\8e55448aba74ea36f3f4c28bb79e35d9531518" />
+    <None Include=".git\objects\0e\61da83be9b5a9bd9e60d13147a9507c382c20b" />
+    <None Include=".git\objects\12\c5ab1e7ea1a53f938e2ee2f66e6516469b1b18" />
+    <None Include=".git\objects\15\0e87d426538e2966f83388ef5b4a595372a976" />
+    <None Include=".git\objects\15\31be7f67fbf9612af2c18efcaea0dc54d86d02" />
+    <None Include=".git\objects\16\6c196a946d2ca10705d5f60414e304a11672d2" />
+    <None Include=".git\objects\18\a21cf31b046249cbd8b801e3cc2f21ce346545" />
+    <None Include=".git\objects\1a\7c850b192a8bc25ac3c6ac1740898fb02c9c7b" />
+    <None Include=".git\objects\1c\8254b23eaa4982a3b2f180d2222613f54a20e0" />
+    <None Include=".git\objects\1d\5fa088a6850d9aeede0c436b98e713420b0ca5" />
+    <None Include=".git\objects\1e\cfd130a71b5e4f5d77a788232c114d5a0dfdd2" />
+    <None Include=".git\objects\1f\97ce31388f035694eb3a245a0a8f085430813e" />
+    <None Include=".git\objects\2a\1057c1d9cf4cb4a3eb709f0309603e165d2373" />
+    <None Include=".git\objects\2a\a5eae8c68f32c500a9d2e5f66d65858d47c4c2" />
+    <None Include=".git\objects\2d\86543e03de36c192df600ecc954c84ca8104c9" />
+    <None Include=".git\objects\2e\6c38973fb9a330906e6d5a50702c29727ba302" />
+    <None Include=".git\objects\2f\1179efd773846e437d26941811c517f81a61a9" />
+    <None Include=".git\objects\30\88832cff35c2c0aa9313e804735465bfa4d595" />
+    <None Include=".git\objects\31\1cfe5a936fe9fa95ae19a23329151d243cc038" />
+    <None Include=".git\objects\38\6d8b957e24b416fb196f00fcca2fba2ff222a2" />
+    <None Include=".git\objects\39\645652af62950ebf3b28ec3a5400dcec30b1c4" />
+    <None Include=".git\objects\39\e680b35c6317433fae96287186fce73a2597c3" />
+    <None Include=".git\objects\3b\2de723b2f15830bc83c383f87a945b7f5183e4" />
+    <None Include=".git\objects\41\b4470e6954e3e04bbfa8d422543be70a8fe5a4" />
+    <None Include=".git\objects\44\1384713a32207a63eb198c0e27adbbfbac5f78" />
+    <None Include=".git\objects\48\a8cf25ffbe90421fc3d0666a2be5f84b6af2ce" />
+    <None Include=".git\objects\49\03141f0a3788ac925b17854b005caa030bcc7c" />
+    <None Include=".git\objects\4a\0895b0a99e5ddc88308e6ce0ca333c8a035ba0" />
+    <None Include=".git\objects\4e\007610d905bd04d2779c5eed42baf4882da8d9" />
+    <None Include=".git\objects\56\9cfa3dc103183e91e5a84188bb5778f7a0baf4" />
+    <None Include=".git\objects\58\d14bc7ba30c532f53332ae1c48b694393d57e0" />
+    <None Include=".git\objects\68\1ab771eb267aad9397bb2eaf7889c5ac0e15e6" />
+    <None Include=".git\objects\6b\6df31cf645f9f4e01250a08cff255e4bc9fef6" />
+    <None Include=".git\objects\6c\05a9776bd7cbae976fdcec7e3a254e93018279" />
+    <None Include=".git\objects\6e\0a54d48159fccf3dc6ddf2662c2227d784e8bc" />
+    <None Include=".git\objects\72\f4ceeaa8fbac6e40b64dd2d2f0cfc3d4955f45" />
+    <None Include=".git\objects\81\82b0a9c8720c85e7798dd9431079c316479480" />
+    <None Include=".git\objects\86\01864ed7c39a60e3c62d4a27e1b46819ab8ef2" />
+    <None Include=".git\objects\86\f025b26418c6d7c4e872b7ed8e455ba1883ed2" />
+    <None Include=".git\objects\88\fa4027bda397de6bf19f0940e5dd6026c877f9" />
+    <None Include=".git\objects\8a\4b48a6bb7d4d1c047942b30d28be114269eb89" />
+    <None Include=".git\objects\8c\a5817e80aaa65e6bf27ad56aabe797a0cbbed3" />
+    <None Include=".git\objects\91\0550f0ac473b75be713f0c00901bbb71f138c1" />
+    <None Include=".git\objects\96\407303835efe193e603cd05b906e2221345dbd" />
+    <None Include=".git\objects\9a\6e54fb7aaaab9b66864bb280885d97fe226f97" />
+    <None Include=".git\objects\9f\410cf9f3924bef60b8cd80a91e659a5b479816" />
+    <None Include=".git\objects\a5\acc2a7f71a3aa97da22dcb6e5218dd706887da" />
+    <None Include=".git\objects\af\7dbebbacef595e3089c01c05671016c21a8304" />
+    <None Include=".git\objects\b7\b6ef6170164fd513d4d5bff1b4240796e85d96" />
+    <None Include=".git\objects\bb\0d34ee66aa9789b4ef7b13f24e6c577b01632c" />
+    <None Include=".git\objects\bc\269370b0e608cc8918abaecf65bbceb43a7009" />
+    <None Include=".git\objects\bd\85baf1c6457d90c0eb25a0245c145e3af5099b" />
+    <None Include=".git\objects\bd\b0cabc87cf50106df6e15097dff816c8c3eb34" />
+    <None Include=".git\objects\bd\c5e5ba6296590cd41e656b3b04d40241390385" />
+    <None Include=".git\objects\c2\ae9200db72e8cec7eeed0a2fc2d35241e17c45" />
+    <None Include=".git\objects\c3\89d8fe0bbb37bf5ad84d028734c04c6c5742f5" />
+    <None Include=".git\objects\c4\c00ed41c444b0c2bb1dbd6cafa19908cf8abd9" />
+    <None Include=".git\objects\c8\68195c6b18eb128f29e0ef6e6234fe5a804324" />
+    <None Include=".git\objects\cd\2946ad76b4402e5b3cab9243a9281aad228670" />
+    <None Include=".git\objects\d0\b354d6a1b3045671b054afae1c13ae5ff53002" />
+    <None Include=".git\objects\d3\3b2dfbeda9bbab658de9df4b557134f5c76c8f" />
+    <None Include=".git\objects\d5\fb96877eb224c4c1210ee185f909df298201ee" />
+    <None Include=".git\objects\da\660f5de2513d50e87f1576eaf5ffb459b23ec4" />
+    <None Include=".git\objects\dc\5f5f98a9072ccf8849057d5e01481173e7ee9e" />
+    <None Include=".git\objects\e2\4bab277ae4871438ba0306f67f09c54a9777b0" />
+    <None Include=".git\objects\e5\8d46c8f27dc6af658ba40d7b6315f7ee0bfd2b" />
+    <None Include=".git\objects\e5\f63d7cb2e74ff7a375dcc7404355d6e1e3afb4" />
+    <None Include=".git\objects\e6\9de29bb2d1d6434b8b29ae775ad8c2e48c5391" />
+    <None Include=".git\objects\f8\3c1da715c5029998c7d07a4d55ee80095a8d04" />
+    <None Include=".git\objects\fc\3e6b2ef300b70acb027aac7ed317663c012497" />
+    <None Include=".git\objects\fe\d7f617049f75d7c4a447c349260a848bd66252" />
+    <None Include=".git\objects\ff\05fbc12d89eb774e50bbc3d014bcb6015f31c6" />
+    <None Include=".git\packed-refs" />
+    <None Include=".git\refs\heads\master" />
+    <None Include=".git\refs\remotes\origin\HEAD" />
+    <None Include=".vs\ImageMM\v14\.suo" />
+    <None Include=".vs\ImageMM\v15\.suo" />
+    <None Include=".vs\ImageMM\v15\Server\sqlite3\db.lock" />
+    <None Include=".vs\ImageMM\v15\Server\sqlite3\storage.ide" />
+    <None Include="ImageMM\App.config" />
+    <None Include="ImageMM\bin\Debug\ImageMM.exe.config" />
+    <None Include="ImageMM\bin\Debug\ImageMM.exe.lastcodeanalysissucceeded" />
+    <None Include="ImageMM\obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="ImageMM\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="ImageMM\obj\Debug\ImageMM.csproj.CopyComplete" />
+    <None Include="ImageMM\obj\Debug\ImageMM.csproj.CoreCompileInputs.cache" />
+    <None Include="ImageMM\obj\Debug\ImageMM.csproj.GenerateResource.Cache" />
+    <None Include="ImageMM\obj\Release\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="ImageMM\obj\Release\ImageMM.csproj.CoreCompileInputs.cache" />
+    <None Include="ImageMM\obj\Release\ImageMM.csproj.GenerateResource.Cache" />
+    <None Include="ImageMM\obj\Release\ImageMM.csprojResolveAssemblyReference.cache" />
+    <None Include="ImageMM\packages.config" />
+    <None Include="ImageMM\Properties\Settings.settings" />
+    <None Include="packages.config" />
+    <None Include="packages\AForge.2.2.5\AForge.2.2.5.nupkg" />
+    <None Include="packages\AForge.Imaging.2.2.5\AForge.Imaging.2.2.5.nupkg" />
+    <None Include="packages\AForge.Math.2.2.5\AForge.Math.2.2.5.nupkg" />
+    <None Include="Readme.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ImageMM\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImageMM\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImageMM\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="ImageMM\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="ImageMM\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="ImageMM\obj\Release\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="ImageMM\obj\Release\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="ImageMM\obj\Release\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="ImageMM\Program.cs" />
+    <Compile Include="ImageMM\Properties\AssemblyInfo.cs" />
+    <Compile Include="ImageMM\Properties\Resources.Designer.cs" />
+    <Compile Include="ImageMM\Properties\Settings.Designer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ImageMM\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImageMM\obj\Debug\ImageMM.Form1.resources" />
+    <EmbeddedResource Include="ImageMM\obj\Debug\ImageMM.Properties.Resources.resources" />
+    <EmbeddedResource Include="ImageMM\obj\Release\ImageMM.Form1.resources" />
+    <EmbeddedResource Include="ImageMM\obj\Release\ImageMM.Properties.Resources.resources" />
+    <EmbeddedResource Include="ImageMM\Properties\Resources.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git\objects\info\" />
+    <Folder Include=".git\objects\pack\" />
+    <Folder Include=".git\refs\tags\" />
+    <Folder Include="ImageMM\obj\Debug\TempPE\" />
+    <Folder Include="ImageMM\obj\Release\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>

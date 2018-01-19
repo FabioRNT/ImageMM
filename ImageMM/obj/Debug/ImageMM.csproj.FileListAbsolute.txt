@@ -13,3 +13,19 @@ C:\Users\NETO\Google Drive\Mestrado\Disciplinas\2016.2\Sistema e Aplicações Mu
 C:\Users\NETO\Google Drive\Mestrado\Disciplinas\2016.2\Sistema e Aplicações Multimedia\Primeiro Trabalho Prático\ImageMM\ImageMM\obj\Debug\ImageMM.csproj.GenerateResource.Cache
 C:\Users\NETO\Google Drive\Mestrado\Disciplinas\2016.2\Sistema e Aplicações Multimedia\Primeiro Trabalho Prático\ImageMM\ImageMM\obj\Debug\ImageMM.exe
 C:\Users\NETO\Google Drive\Mestrado\Disciplinas\2016.2\Sistema e Aplicações Multimedia\Primeiro Trabalho Prático\ImageMM\ImageMM\obj\Debug\ImageMM.pdb
+C:\Users\Neto\Google Drive\workspace\ImageMM\ImageMM\ImageMM\bin\Debug\ImageMM.exe.config
+C:\Users\Neto\Google Drive\workspace\ImageMM\ImageMM\ImageMM\bin\Debug\ImageMM.exe
+C:\Users\Neto\Google Drive\workspace\ImageMM\ImageMM\ImageMM\bin\Debug\ImageMM.pdb
+C:\Users\Neto\Google Drive\workspace\ImageMM\ImageMM\ImageMM\bin\Debug\AForge.dll
+C:\Users\Neto\Google Drive\workspace\ImageMM\ImageMM\ImageMM\bin\Debug\AForge.Imaging.dll
+C:\Users\Neto\Google Drive\workspace\ImageMM\ImageMM\ImageMM\bin\Debug\AForge.Math.dll
+C:\Users\Neto\Google Drive\workspace\ImageMM\ImageMM\ImageMM\bin\Debug\AForge.xml
+C:\Users\Neto\Google Drive\workspace\ImageMM\ImageMM\ImageMM\bin\Debug\AForge.Imaging.xml
+C:\Users\Neto\Google Drive\workspace\ImageMM\ImageMM\ImageMM\bin\Debug\AForge.Math.xml
+C:\Users\Neto\Google Drive\workspace\ImageMM\ImageMM\ImageMM\obj\Debug\ImageMM.Form1.resources
+C:\Users\Neto\Google Drive\workspace\ImageMM\ImageMM\ImageMM\obj\Debug\ImageMM.Properties.Resources.resources
+C:\Users\Neto\Google Drive\workspace\ImageMM\ImageMM\ImageMM\obj\Debug\ImageMM.csproj.GenerateResource.Cache
+C:\Users\Neto\Google Drive\workspace\ImageMM\ImageMM\ImageMM\obj\Debug\ImageMM.csproj.CoreCompileInputs.cache
+C:\Users\Neto\Google Drive\workspace\ImageMM\ImageMM\ImageMM\obj\Debug\ImageMM.exe
+C:\Users\Neto\Google Drive\workspace\ImageMM\ImageMM\ImageMM\obj\Debug\ImageMM.pdb
+C:\Users\Neto\Google Drive\workspace\ImageMM\ImageMM\ImageMM\obj\Debug\ImageMM.csprojResolveAssemblyReference.cache
