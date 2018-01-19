@@ -11,7 +11,7 @@ This application was developed and presented to fulfill an assignment of the mul
 **Known Issues:**
 
 * If you try to apply a filter to a zoomed image, the filter will be applied, but the image will return to its original size.
-* The zooming tool did not scale properly with the image dimensions.
+* The zooming functionality does not take into consideration the image's original aspect ratio, which may cause a distortion in the image after zooming in.
 
 **Requirements:**
 
